@@ -1,0 +1,110 @@
+body {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    background-image: url("Image/background.jpg");
+    background-size: 100%;
+    background-attachment: fixed;
+}
+img{
+    width: 100%;
+}
+.navbar{
+    background-color: #2C3E50;
+}
+.navbar-brand img{
+    width: 80px;
+}
+.nav-item:hover {
+    background-color: #48C9B0;
+    border-radius: 4px;
+}
+#carouselExampleIndicators{
+    margin-top: 64px;
+}
+.judul{
+    text-align: center;
+    background-color: #2C3E50;
+    border-radius: 4px;
+    color: white;
+}
+.img1{
+    border-radius: 4px;
+    margin-top: 5px;
+}
+.img1:hover {
+    box-shadow: 0 0 7px 2px #20DAA5;
+}
+.link{
+    text-align: center;
+}
+.tabell{
+    border: 2px solid #2C3E50;
+    padding: 10px 0px 10px 0px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+.paragraf{
+    padding: 10px;
+    color: white;
+    background-color:  #2C3E50;
+    border: 2px solid #2C3E50;
+    margin: 15px;
+    border-radius: 4px;
+} 
+#komentar {
+    background-color: #2C3E50;
+    color: white;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+#tabelkomentar,
+#tabelemail {
+    width: 100%;
+    border: 1px solid #2C3E50;
+}
+
+#submit {
+    border: 1px solid white;
+    border-radius: 2px;
+    display: block;
+    margin-top: 3px;
+    margin-right: auto;
+    margin-left: auto;
+    color:  #2C3E50;
+}
+hr{
+    width: 100%;
+    color:#2C3E50;
+    border: 1px #2C3E50 solid;
+}
+.footer {
+    background-color: #2C3E50;
+    color: white;
+    padding: 10px 0 10px 0;
+    letter-spacing: 3px;
+}
+.col-12{
+    text-align: center;
+}
+#tab{
+    background-color: #2C3E50;
+    padding:10px 30px 0 30px;
+    color: white;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+#footerimage{
+    width: 17%;
+}
+
+.imgFooter:hover {
+    opacity: 0.5;
+}
+.footer .imgS {
+    width: 30px;
+}
+.col-12 h4{
+    text-align: center;
+}
