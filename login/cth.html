@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login</title>
+        <style>
+            .container{width: 500px; margin: auto; border:1px solid #eee; height: 155px;}
+            .container input[type=button]{background: green none repeat scroll 0 0;
+            border: 0 none;
+            color: white;
+            font-weight: bold;
+            padding: 3px;
+            width: 154px;
+            }
+            .container table {margin: auto; margin-top: 36px;}
+        </style>
+       </head>
+    <body>
+        <div class="container">
+            <form action="" method="POST">
+                <table>
+                    <tr>
+                        <td>USERNAME</td>
+                        <td></td>
+                        <td><input type="text" name="username" id="user"></td>
+                    </tr>
+                    <tr>
+                        <td>PASSWORD</td>
+                        <td></td>
+                        <td><input type="password" name="password" id="pass"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td colspan="3">
+                            <input type="button" name="submit" value="SHOW PASSWORD" id="show" onclick="ShowPassword()">
+                            <input type="button" style="display:none" id="hide" value="Hide Password" onclick="HidePassword()">
+                        </td>
+                        
+                    </tr>
+                </table>
+            </form>
+        </div>
+        <script>
+            function ShowPassword()
+        {
+            if(document.getElementById("pass").value!="")
+            {
+                document.getElementById("pass").type="text";
+                document.getElementById("show").style.display="none";
+                document.getElementById("hide").style.display="block";
+            }
+        }
+        function HidePassword()
+        {
+            if(document.getElementById("pass").type == "text")
+            {
+                document.getElementById("pass").type="password"
+                document.getElementById("show").style.display="block";
+                document.getElementById("hide").style.display="none";
+            }
+        }
+        </script>
+    </body>
+</html>
