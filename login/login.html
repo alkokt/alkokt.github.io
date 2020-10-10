@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>Login</title>
+  <link rel="stylesheet" type="text/css" href="CSSlogin.css">
+ </head>
+ <body>
+ 	<div id="kotak">
+ 		<div id="bg">
+ 			<p><b>
+ 			Login Form by
+			 <br>Alika Oktaviani</b>
+ 			</p>
+ 		</div>
+		 <legend id="judul"><b>LOGIN</b></legend>
+ 		<form>
+		<label for="username">
+			<input id="username" class="form-content" type="username" placeholder="Username" autocomplete="on" required/>
+		</label> 
+		  <div class="form-border"></div>
+		<label for="user-password">
+			<input id="user-password" class="form-content" type="password" placeholder="Password" autocomplete="on" required/>
+			</label>
+			<div class="form-border"></div>
+
+				<input type=button id="show" value="show password" onclick="ShowPassword()">
+				<input type=button style="display:none" id="hide" value="hide password" onclick="HidePassword()">
+				<br>
+				<input type="checkbox" id="ck-btn">
+				<a id="save">ingat info masuk saya</a>
+
+		<input type="submit" class="tombol-login" value="Login">
+		<legend id="new-akun">Belum punya akun?<a class="daftar"> Daftar</a></legend>
+
+	</form>
+	 </div>
+
+	 <script>
+	function ShowPassword()
+	{
+		if(document.getElementById("user-password").value!="")
+		{
+			document.getElementById("user-password").type="text";
+			document.getElementById("show").style.display="none";
+			document.getElementById("hide").style.display="block";
+		}
+	}
+
+	function HidePassword()
+	{
+		if(document.getElementById("user-password").type == "text")
+		{
+			document.getElementById("user-password").type="password"
+			document.getElementById("show").style.display="block";
+			document.getElementById("hide").style.display="none";
+		}
+	}
+	</script>
+
+ </body>
+</html>
