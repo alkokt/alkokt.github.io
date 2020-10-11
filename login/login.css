@@ -19,7 +19,7 @@ body{
     background-position: 0 -10px;
 }
 p{
-    color: #FFFFFF;
+    color: white;
     text-align: center;
     text-align: center;
     padding: 40px;
@@ -41,6 +41,7 @@ form{
 .tombol-login:hover{
     background-color: blue;
     box-shadow: 0px 2px 3px black;
+    background: linear-gradient(-45deg, lightblue, pink);
 }
 .tombol-login{
 	background: #4169E1;
@@ -50,13 +51,14 @@ form{
 	border: none;
 	border-radius: 3px;
 	padding: 10px;
-    margin-top: 20px;
-    border-radius: 21px;
+    	margin-top: 20px;
+    	background: linear-gradient(-45deg, lightblue, pink);
+
 }
 #judul{
     text-align: center;
     padding-top: 20px;
-    color: blue;
+    color: lightblue;
 }
 #new-akun{
     padding-top: 3px;
@@ -85,7 +87,7 @@ form{
     border: none;
     margin-bottom: 5px;
     margin-left: 190px;
-    background-color: #4169E1;
+    background: linear-gradient(-45deg, lightblue, pink);
     color: #FFFFFF;
 }
 #show:hover, #hide:hover{
